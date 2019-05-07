@@ -5,17 +5,17 @@ app.config(function($routeProvider, $authProvider, $locationProvider) {
   // *** satellizer settings *** //
   $authProvider.github({
     url: '/auth/github',
-    clientId: '5c38751d7a924251650d',
+    clientId: '',
     redirectUri: window.location.origin
   });
   $authProvider.google({
     url: '/auth/google',
-    clientId: '553180654335-bc34dnb5ofpkkapkms5q2b2h6sausgc3.apps.googleusercontent.com',
+    clientId: '',
     redirectUri: window.location.origin,
   });
   $authProvider.instagram({
     url: '/auth/instagram',
-    clientId: '827127ce2fcd47aa948a301b2eebabb8',
+    clientId: '',
     redirectUri: window.location.origin,
   });
 
